@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>防水工事・雨漏り修理なら自社施工の当社へ | 最短即日対応・見積もり無料</title>
+    <meta name="description" content="戸建て・集合住宅の防水工事・雨漏り修理はお任せください。自社施工で中間マージンなし、最短即日対応、現地調査・見積もり無料。安心の保証付きです。">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1d4ed8', // Blue-700
+                        secondary: '#dc2626', // Red-600
+                        accent: '#eab308', // Yellow-500
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .clip-diagonal { clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%); }
+        .gradient-bg { background: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%); }
+        .dark .gradient-bg { background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%); }
+        
+        /* Floating Action Buttons */
+        .fab-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 50;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        @media (max-width: 640px) {
+            .fab-container {
+                bottom: 0;
+                right: 0;
+                left: 0;
+                flex-direction: row;
+                gap: 0;
+            }
+            .fab-btn {
+                flex: 1;
+                border-radius: 0 !important;
+                padding: 15px 0;
+            }
+        }
+    </style>
+<script src="https://felo.ai/js/iframe.js?v=1775105270255"></script>
+ <style>
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: #bfc5ce transparent !important;
+}
+*::-webkit-scrollbar {
+  width: 6px !important;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #bfc5ce !important;
+  border-radius: 9999px !important;
+}
+*::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  border-radius: 9999px !important;
+}
+</style></head>
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-40 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-house-flood-water text-primary text-2xl"></i>
+                <span class="font-bold text-xl tracking-tight">雨漏りレスキュー</span>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <div class="hidden md:flex flex-col text-right">
+                    <span class="text-xs text-gray-500 dark:text-gray-400">お急ぎの方はこちら</span>
+                    <a href="tel:0120-000-000" class="font-bold text-lg text-primary hover:text-blue-800 flex items-center gap-1">
+                        <i class="fa-solid fa-phone"></i> 0120-000-000
+                    </a>
+                </div>
+                <!-- Dark Mode Toggle -->
+                <button id="theme-toggle" class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 transition">
+                    <i class="fa-solid fa-moon dark:hidden"></i>
+                    <i class="fa-solid fa-sun hidden dark:block"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 lg:pt-32 lg:pb-24 gradient-bg clip-diagonal relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <div class="inline-block bg-secondary text-white font-bold px-4 py-1 rounded-full text-sm mb-6 animate-pulse">
+                        <i class="fa-solid fa-triangle-exclamation mr-1"></i> 緊急対応可能！最短即日で駆けつけます
+                    </div>
+                    <h1 class="text-4xl lg:text-5xl font-black leading-tight mb-6">
+                        急な<span class="text-primary">雨漏り</span>・<br>
+                        不安な<span class="text-primary">防水工事</span>。<br>
+                        <span class="text-secondary text-5xl">プロに全てお任せを。</span>
+                    </h1>
+                    <p class="text-lg text-gray-600 dark:text-gray-300 mb-8 font-medium">
+                        戸建て・集合住宅対応。自社施工だからできる「中間マージンなし」の適正価格。<br>
+                        現地調査・お見積もりは完全無料です。
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact" class="bg-secondary hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transform hover:-translate-y-1 transition text-lg text-center flex items-center justify-center gap-2">
+                            <i class="fa-regular fa-envelope"></i> 無料お見積もり・相談
+                        </a>
+                        <a href="tel:0120-000-000" class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 border-2 border-primary text-primary dark:text-blue-400 font-bold py-4 px-8 rounded-lg shadow transform hover:-translate-y-1 transition text-lg text-center flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-phone"></i> 0120-000-000
+                        </a>
+                    </div>
+                    
+                    <div class="mt-8 flex justify-center lg:justify-start gap-4 text-sm font-bold text-gray-600 dark:text-gray-400">
+                        <span class="flex items-center gap-1"><i class="fa-solid fa-check text-accent"></i> 自社施工</span>
+                        <span class="flex items-center gap-1"><i class="fa-solid fa-check text-accent"></i> 保証あり</span>
+                        <span class="flex items-center gap-1"><i class="fa-solid fa-check text-accent"></i> 調査無料</span>
+                    </div>
+                </div>
+                
+                <div class="relative hidden lg:block">
+                    <!-- SVG Illustration instead of relying on external images -->
+                    <svg class="w-full h-auto drop-shadow-2xl" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="600" height="400" rx="20" fill="#E0F2FE" class="dark:fill-slate-800"/>
+                        <path d="M100 250L300 100L500 250V350H100V250Z" fill="#BAE6FD" class="dark:fill-slate-700"/>
+                        <path d="M300 80L80 260H120V350H480V260H520L300 80Z" fill="#3B82F6" class="dark:fill-blue-600"/>
+                        <rect x="250" y="250" width="100" height="100" fill="#DBEAFE" class="dark:fill-slate-600"/>
+                        <!-- Raindrops -->
+                        <path d="M200 150Q200 160 195 170Q190 180 200 190Q210 180 205 170Q200 160 200 150Z" fill="#60A5FA"/>
+                        <path d="M400 120Q400 130 395 140Q390 150 400 160Q410 150 405 140Q400 130 400 120Z" fill="#60A5FA"/>
+                        <!-- Shield -->
+                        <path d="M480 80C480 80 430 70 430 30C430 30 380 70 380 80C380 130 400 180 430 200C460 180 480 130 480 80Z" fill="#EAB308"/>
+                        <path d="M410 110L425 125L450 90" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Check Section -->
+    <section class="py-20 bg-white dark:bg-gray-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">こんな症状はありませんか？</h2>
+                <p class="text-gray-600 dark:text-gray-400">一つでも当てはまる場合は、<span class="text-secondary font-bold">雨漏りのサイン</span>かもしれません。</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl border border-gray-100 dark:border-gray-600 flex items-start gap-4 shadow-sm hover:shadow-md transition">
+                    <div class="bg-blue-100 text-primary p-3 rounded-full shrink-0">
+                        <i class="fa-solid fa-droplet fa-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">天井や壁にシミがある</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">初期症状として最も多いサインです。放置するとカビの原因になります。</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl border border-gray-100 dark:border-gray-600 flex items-start gap-4 shadow-sm hover:shadow-md transition">
+                    <div class="bg-blue-100 text-primary p-3 rounded-full shrink-0">
+                        <i class="fa-solid fa-disease fa-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">カビ臭いニオイがする</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">目に見えなくても、壁の内部で水が回りカビが繁殖している可能性があります。</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl border border-gray-100 dark:border-gray-600 flex items-start gap-4 shadow-sm hover:shadow-md transition">
+                    <div class="bg-blue-100 text-primary p-3 rounded-full shrink-0">
+                        <i class="fa-solid fa-layer-group fa-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">クロス（壁紙）が剥がれている</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">湿気によりクロスの接着力が弱まっている証拠です。</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl border border-gray-100 dark:border-gray-600 flex items-start gap-4 shadow-sm hover:shadow-md transition">
+                    <div class="bg-blue-100 text-primary p-3 rounded-full shrink-0">
+                        <i class="fa-solid fa-water fa-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">ベランダの水はけが悪い</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">防水層が劣化し、水が溜まりやすくなると下階への雨漏りリスクが高まります。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-red-50 dark:bg-red-900/20 border-l-4 border-secondary p-6 rounded-r-xl">
+                <h3 class="text-xl font-bold text-secondary mb-2"><i class="fa-solid fa-triangle-exclamation"></i> 放置は危険です！</h3>
+                <p class="text-gray-700 dark:text-gray-300">雨漏りを放置すると、木材の腐食やシロアリの発生を招き、最悪の場合は<strong class="text-secondary">建物の倒壊や高額な改修工事</strong>に繋がります。少しでも異変を感じたら、まずは無料調査をご依頼ください。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">当社が選ばれる<span class="text-primary">6つの理由</span></h2>
+                <p class="text-gray-600 dark:text-gray-400">オーナー様・管理会社様からも厚い信頼をいただいております。</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Reason 1 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+                    <div class="text-accent text-4xl mb-4"><i class="fa-solid fa-hammer"></i></div>
+                    <h3 class="text-xl font-bold mb-3">完全自社施工</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">下請けを使わず、当社の熟練職人が直接施工。責任を持った高品質な工事をお約束します。</p>
+                </div>
+                <!-- Reason 2 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+                    <div class="text-accent text-4xl mb-4"><i class="fa-solid fa-yen-sign"></i></div>
+                    <h3 class="text-xl font-bold mb-3">中間マージンなし</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">自社施工だからこそ、無駄な仲介手数料をカット。適正で透明性の高い価格で提供します。</p>
+                </div>
+                <!-- Reason 3 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+                    <div class="text-accent text-4xl mb-4"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <h3 class="text-xl font-bold mb-3">現地調査・見積り無料</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">プロの目でしっかり原因を特定し、詳細な見積もりを提示します。無理な営業は一切しません。</p>
+                </div>
+                <!-- Reason 4 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+                    <div class="text-accent text-4xl mb-4"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3 class="text-xl font-bold mb-3">最短即日対応</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">「今すぐ直してほしい」という緊急のSOSにも、フットワーク軽くスピーディーに駆けつけます。</p>
+                </div>
+                <!-- Reason 5 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+                    <div class="text-accent text-4xl mb-4"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 class="text-xl font-bold mb-3">安心の施工保証</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">工事完了後も安心してお過ごしいただけるよう、施工内容に応じた保証をお付けしています。</p>
+                </div>
+                <!-- Reason 6 -->
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:-translate-y-2 transition duration-300">
+                    <div class="text-accent text-4xl mb-4"><i class="fa-solid fa-building-user"></i></div>
+                    <h3 class="text-xl font-bold mb-3">幅広い対象物件</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">一般の戸建て住宅はもちろん、アパート・マンションなどの集合住宅の屋上防水等にも対応可能です。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-white dark:bg-gray-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">サービス一覧</h2>
+                <p class="text-gray-600 dark:text-gray-400">建物の状態やご予算に合わせた最適な工法をご提案します。</p>
+            </div>
+            
+            <div class="space-y-12">
+                <!-- Service 1 -->
+                <div class="flex flex-col md:flex-row gap-8 items-center bg-gray-50 dark:bg-gray-700 rounded-2xl overflow-hidden shadow-sm">
+                    <div class="w-full md:w-2/5 h-64 bg-gray-200 dark:bg-gray-600 flex items-center justify-center relative">
+                        <svg class="w-1/2 h-1/2 opacity-50" viewBox="0 0 100 100" fill="currentColor">
+                            <path d="M10,90 L90,90 L90,80 L10,80 Z M20,80 L80,80 L80,30 L50,10 L20,30 Z"/>
+                        </svg>
+                        <div class="absolute inset-0 bg-blue-900/10 mix-blend-multiply"></div>
+                    </div>
+                    <div class="w-full md:w-3/5 p-8">
+                        <h3 class="text-2xl font-bold mb-3 border-b-2 border-primary inline-block pb-1">防水工事（ウレタン・FRP・シート等）</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">屋上やベランダ、バルコニーの防水性能を回復させます。形状が複雑な場所にはウレタン防水、耐久性を求めるならFRP防水など、状況に最適な工法で建物を水から守ります。</p>
+                        <ul class="text-sm font-bold flex gap-3 flex-wrap">
+                            <li class="bg-white dark:bg-gray-800 px-3 py-1 rounded border border-gray-200 dark:border-gray-600">戸建てベランダ</li>
+                            <li class="bg-white dark:bg-gray-800 px-3 py-1 rounded border border-gray-200 dark:border-gray-600">マンション屋上</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="flex flex-col md:flex-row-reverse gap-8 items-center bg-gray-50 dark:bg-gray-700 rounded-2xl overflow-hidden shadow-sm">
+                    <div class="w-full md:w-2/5 h-64 bg-gray-200 dark:bg-gray-600 flex items-center justify-center relative">
+                        <svg class="w-1/2 h-1/2 opacity-50" viewBox="0 0 100 100" fill="currentColor">
+                            <path d="M50,10 L90,40 L90,90 L10,90 L10,40 Z M30,90 L30,60 L70,60 L70,90"/>
+                            <circle cx="50" cy="30" r="5" fill="#ef4444"/>
+                        </svg>
+                    </div>
+                    <div class="w-full md:w-3/5 p-8">
+                        <h3 class="text-2xl font-bold mb-3 border-b-2 border-primary inline-block pb-1">雨漏り修理・応急処置</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">屋根や外壁、サッシ周りからの雨漏りを特定し、確実に修理します。台風直後などで本格的な工事がすぐにできない場合は、ブルーシートや防水テープによる応急処置も承ります。</p>
+                        <ul class="text-sm font-bold flex gap-3 flex-wrap">
+                            <li class="bg-white dark:bg-gray-800 px-3 py-1 rounded border border-gray-200 dark:border-gray-600">原因特定調査</li>
+                            <li class="bg-white dark:bg-gray-800 px-3 py-1 rounded border border-gray-200 dark:border-gray-600">シーリング打ち替え</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Middle -->
+    <section class="py-16 bg-primary text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">まずは現状を把握することが解決への第一歩です</h2>
+            <p class="mb-8 text-blue-100 text-lg">しつこい営業はいたしません。お気軽にご相談ください。</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <a href="tel:0120-000-000" class="bg-white text-primary font-bold py-4 px-8 rounded-full text-xl shadow-lg hover:bg-gray-100 transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-phone"></i> 0120-000-000
+                </a>
+                <a href="#contact" class="bg-secondary text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg hover:bg-red-700 transition flex items-center justify-center gap-2">
+                    <i class="fa-regular fa-envelope"></i> WEBから無料相談
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">よくあるご質問</h2>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 border border-gray-100 dark:border-gray-700">
+                    <h3 class="font-bold text-lg mb-2 flex gap-3 items-start">
+                        <span class="text-primary">Q.</span> 見積もりは本当に無料ですか？
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 pl-7">
+                        <span class="text-secondary font-bold mr-1">A.</span> はい、現地調査からお見積りの提出まで完全無料で行っております。見積もり後にお断りいただいても費用は一切かかりません。
+                    </p>
+                </div>
+                <!-- FAQ Item -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 border border-gray-100 dark:border-gray-700">
+                    <h3 class="font-bold text-lg mb-2 flex gap-3 items-start">
+                        <span class="text-primary">Q.</span> 工事期間はどれくらいかかりますか？
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 pl-7">
+                        <span class="text-secondary font-bold mr-1">A.</span> 施工範囲や工法によりますが、一般的な戸建てのベランダ防水であれば1〜3日程度、屋根の雨漏り部分修理であれば半日〜1日程度で完了することが多いです。
+                    </p>
+                </div>
+                <!-- FAQ Item -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 border border-gray-100 dark:border-gray-700">
+                    <h3 class="font-bold text-lg mb-2 flex gap-3 items-start">
+                        <span class="text-primary">Q.</span> 小さな雨漏りでも対応してもらえますか？
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 pl-7">
+                        <span class="text-secondary font-bold mr-1">A.</span> もちろんです。小さなシミや少しの隙間でも、内部では劣化が進行している可能性があります。軽微なうちに修理する方が費用も安く抑えられます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-20 bg-white dark:bg-gray-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">無料見積もり・お問い合わせ</h2>
+                <p class="text-gray-600 dark:text-gray-400">以下のフォームに必要事項をご入力の上、送信してください。<br>24時間以内に担当者よりご連絡いたします。</p>
+            </div>
+            
+            <div class="bg-gray-50 dark:bg-gray-700 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-600">
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-bold mb-2">お名前 <span class="bg-secondary text-white text-xs px-2 py-0.5 rounded ml-2">必須</span></label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary focus:border-primary dark:bg-gray-800 outline-none transition" placeholder="山田 太郎">
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="phone" class="block text-sm font-bold mb-2">電話番号 <span class="bg-secondary text-white text-xs px-2 py-0.5 rounded ml-2">必須</span></label>
+                            <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary focus:border-primary dark:bg-gray-800 outline-none transition" placeholder="090-1234-5678">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-bold mb-2">メールアドレス</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary focus:border-primary dark:bg-gray-800 outline-none transition" placeholder="example@email.com">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold mb-2">建物の種類</label>
+                        <div class="flex flex-wrap gap-4">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="radio" name="building_type" value="戸建て" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                <span>戸建て</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="radio" name="building_type" value="集合住宅" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                <span>集合住宅（アパート・マンション）</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="radio" name="building_type" value="その他" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                <span>店舗・その他</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-sm font-bold mb-2">ご相談内容 <span class="bg-gray-400 text-white text-xs px-2 py-0.5 rounded ml-2">任意</span></label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary focus:border-primary dark:bg-gray-800 outline-none transition" placeholder="「2階の天井から雨漏りしている」「ベランダのヒビ割れが気になる」など、お気軽にご記入ください。"></textarea>
+                    </div>
+                    
+                    <div class="text-center pt-4">
+                        <button type="submit" class="bg-secondary hover:bg-red-700 text-white font-bold py-4 px-12 rounded-lg shadow-lg transform hover:-translate-y-1 transition text-lg w-full md:w-auto">
+                            同意して送信する
+                        </button>
+                        <p class="text-xs text-gray-500 mt-4">※個人情報の取り扱いについてはプライバシーポリシーに同意したものとみなします。</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <i class="fa-solid fa-house-flood-water text-primary text-2xl"></i>
+                        <span class="font-bold text-xl text-white tracking-tight">雨漏りレスキュー</span>
+                    </div>
+                    <p class="text-sm mb-4">防水工事・雨漏り修理のプロフェッショナル。<br>確かな技術と安心価格で建物を守ります。</p>
+                </div>
+                <div class="md:text-right">
+                    <p class="text-sm mb-2">お電話でのご相談はこちら</p>
+                    <a href="tel:0120-000-000" class="text-2xl font-bold text-white hover:text-primary transition flex items-center md:justify-end gap-2 mb-4">
+                        <i class="fa-solid fa-phone"></i> 0120-000-000
+                    </a>
+                    <p class="text-xs text-gray-500">受付時間：9:00〜18:00（年中無休）</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+                <p>&copy; 2026 雨漏りレスキュー All Rights Reserved.</p>
+                <p class="mt-2 md:mt-0">Designed by 吉川智博</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Action Buttons (Mobile mainly) -->
+    <div class="fab-container w-full sm:w-auto">
+        <a href="tel:0120-000-000" class="fab-btn bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full shadow-lg flex items-center justify-center gap-2 transition text-lg sm:text-base">
+            <i class="fa-solid fa-phone"></i> <span class="hidden sm:inline">電話する</span>
+        </a>
+        <a href="#contact" class="fab-btn bg-secondary hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full shadow-lg flex items-center justify-center gap-2 transition text-lg sm:text-base">
+            <i class="fa-regular fa-envelope"></i> <span class="hidden sm:inline">WEB見積</span>
+        </a>
+    </div>
+
+    <!-- Theme Toggle Script -->
+    <script>
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+
+        // Check for saved theme preference or use system preference
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            html.classList.add('dark');
+        } else {
+            html.classList.remove('dark');
+        }
+
+        // Toggle theme manually
+        themeToggleBtn.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            if (html.classList.contains('dark')) {
+                localStorage.theme = 'dark';
+            } else {
+                localStorage.theme = 'light';
+            }
+        });
+    </script>
+</body>
+</html>
